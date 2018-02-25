@@ -1,5 +1,5 @@
 # time-format
-javascript time&amp;date simple format
+nodejs time&amp;date simple format
 
 # install
 npm install date-simple-format --save
