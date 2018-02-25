@@ -1,4 +1,4 @@
-# time-format
+# date-simple-format
 nodejs time&amp;date simple format
 
 # install
