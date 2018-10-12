@@ -1,33 +1,33 @@
 {
-    "name": "date-simple-format",
-    "version": "1.0.0",
-    "description": "nodejs date&time simple format",
-    "main": "dist/format.js",
-    "scripts": {
-        "build": "webpack"
-    },
-    "keywords": [
-        "nodejs",
-        "date",
-        "time",
-        "format"
-    ],
-    "browserslist": [
-        "> 1%",
-        "last 2 versions",
-        "not ie <= 8"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/zhangmingfeng/date-simple-format.git"
-    },
-    "author": "zhangmingfeng",
-    "license": "MIT",
-    "devDependencies": {
-        "babel-core": "^6.26.0",
-        "babel-loader": "^7.1.2",
-        "babel-plugin-transform-runtime": "^6.23.0",
-        "babel-preset-es2015": "^6.24.1",
-        "webpack": "^3.10.0"
-    }
+  "name": "date-simple-format",
+  "version": "1.0.2",
+  "description": "nodejs date&time simple format",
+  "main": "dist/format.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [
+    "nodejs",
+    "date",
+    "time",
+    "format"
+  ],
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhangmingfeng/date-simple-format.git"
+  },
+  "author": "zhangmingfeng",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^3.10.0"
+  }
 }

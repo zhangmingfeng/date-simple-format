@@ -5,7 +5,15 @@ const format = (time, fmt) => {
     if (typeof time === 'string') {
         nowTime = new Date(time);
     } else if (typeof time === 'number') {
-        nowTime = new Date(time * 1000);
+        if (time.toString().length > 10) {
+            nowTime = new Date(time);
+        } else {
+            nowTime = new Date(time * 1000);
+        }
+    } else if (time instanceof Date) {
+        nowTime = time;
+    } else {
+        throw new Error('invalid time');
     }
     const o = {
         'M+': nowTime.getMonth() + 1,
